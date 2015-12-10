@@ -4,7 +4,7 @@ Author: Clement Valla
 Version: 1.0
 */
 
- *{
+*{
  	margin: 0;
 	padding: 0;
  }
@@ -43,10 +43,10 @@ div#menu {
 	font: 1em Open Sans;
 	cursor: move;
 	mix-blend-mode: multiply;
-	width: 90vh;   
+	width: 100vh;   
 	margin: 1em; 
   	transform-origin: left top;
- 	transform: rotate(-90deg) translateX(-103%);
+ 	transform: rotate(-90deg) translateX(-98%);
 }
 #navigation {
 	display: flex;
@@ -56,6 +56,14 @@ div#menu {
 	list-style: none;
 	flex: 1 1 auto;
 	text-align: center;
+	padding: .4em 1em;
+	border-bottom: .15em springgreen solid;
+}
+#navigation li a {
+	padding: .4em 1em;
+	border-top: .15em springgreen solid;
+	border-left: .15em springgreen solid;
+	border-right: .15em springgreen solid;
 }
 #navigation2 {
 	position: fixed;
@@ -65,9 +73,11 @@ div#menu {
 	font: 1em Open Sans;
 	mix-blend-mode: multiply;
 	right: 4em;
-	bottom: 4em;
+	top: 4em;
 	text-decoration: none;
 	list-style: none;
+	padding: 2em;
+	border: .15em springgreen solid;
 }
 
 
@@ -76,11 +86,11 @@ ul#navigation a, div.about{
 	text-decoration: none;
 }
 ul#navigation a.active{
-	border-bottom: .2em springgreen solid;
+	border-bottom: .15em #fff solid;
 }
+
 ul#navigation a:hover{
-	color: #00CD66;
-	letter-spacing: .08em;
+	border-bottom: .2em springgreen solid;
 }
 
 ul#navigation2 a{
@@ -92,8 +102,6 @@ ul#navigation2 li.active1{
 	list-style: disc;
 }
 ul#navigation2 a:hover{
-	color: #00CD66;
-	letter-spacing: .08em;
 }
 
 h1#logo{
@@ -105,7 +113,7 @@ h1#logo{
     z-index: 100;
     color: springgreen;
 	mix-blend-mode: multiply;	
-	z-index: 90;
+	z-index: 101;
 	top: 50%;
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
@@ -117,7 +125,7 @@ div#fade1{
 	z-index: 90;
 	bottom:0;
 	width: 100%;
-	height: 15em;
+	height: 18em;
 	background-image: linear-gradient(to bottom, transparent, white);
 	pointer-events: none;
 }
@@ -126,7 +134,7 @@ div#fade2{
 	z-index: 90;
 	top:0;
 	width: 100%;
-	height: 15em;
+	height: 18em;
 	background-image: linear-gradient(to top, transparent, white);
 	pointer-events: none;
 }
