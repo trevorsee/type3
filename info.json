@@ -1,11 +1,39 @@
 {
 	"title": "Binder",
-	"logo" : "logo.png",
-	"about" : "Link some sites together.",
-	"menu" : {
-		"On Typography" : "https://docs.google.com/document/d/1bYWCRmNEsHBZJYs5TOM4FjTYe8cPF1cRzT8pW-XZKgk/",
-		"Belief and Reality" : "https://docs.google.com/document/d/1MP2QcQB11sElOXRA-tfwZFqBGo-oqjhCgteb8Gy5FvI",
-		"On Modern Typography" : "https://docs.google.com/document/d/1cvFTTfPh3MM0kxHBZJem1YM6EbRQ5JYxHMRft_0dW_0",
-		"Colophon" : "https://docs.google.com/document/d/1K1CcQwRberaC0cqDeoR_qmPih-hmLwaNPcX46M14wg0"
+	"menu": {
+		"Max Bill": {
+			"title": "On Typography",
+			"url": "//docs.google.com/document/d/1bYWCRmNEsHBZJYs5TOM4FjTYe8cPF1cRzT8pW-XZKgk",
+			"subnav": {
+				"essay": "//docs.google.com/document/d/1bYWCRmNEsHBZJYs5TOM4FjTYe8cPF1cRzT8pW-XZKgk",
+				"Max Bill": "//en.wikipedia.org/wiki/Max_Bill",
+				"The New Typography": "//www.designhistory.org/Avant_Garde_pages/DieNeueType.html",
+				"images": "//maxbilltypography.tumblr.com/tagged/1/chrono"
+			}
+		},
+		"Jan Tschichold": {
+			"title": "Belief and Reality",
+			"url": "//docs.google.com/document/d/1MP2QcQB11sElOXRA-tfwZFqBGo-oqjhCgteb8Gy5FvI",
+			"subnav": {
+				"essay": "//docs.google.com/document/d/1MP2QcQB11sElOXRA-tfwZFqBGo-oqjhCgteb8Gy5FvI",
+				"Jan Tschichold": "//en.wikipedia.org/wiki/Jan_Tschichold",
+				"Penguin Composition Rules": "//www.iconeye.com/opinion/rethink/item/12123-the-penguin-composition-rules",
+				"images": "//jantschicholdtygraphy.tumblr.com/tagged/1/chrono"
+			}
+		},
+		"Paul Renner": {
+			"title": "On Modern Typography",
+			"url": "//docs.google.com/document/d/1cvFTTfPh3MM0kxHBZJem1YM6EbRQ5JYxHMRft_0dW_0",
+			"subnav": {
+				"essay": "//docs.google.com/document/d/1cvFTTfPh3MM0kxHBZJem1YM6EbRQ5JYxHMRft_0dW_0",
+				"Paul Renner": "//en.wikipedia.org/wiki/Paul_Renner",
+				"Type Families": "//www.fontshop.com/designers/paul-renner",
+				"images": "//paulrennertypography.tumblr.com/tagged/1/chrono"
+			}
+		},
+		"Colophon": {
+			"title": "Colophon",
+			"url": "//docs.google.com/document/d/1K1CcQwRberaC0cqDeoR_qmPih-hmLwaNPcX46M14wg0"
+		}
 	}
 }

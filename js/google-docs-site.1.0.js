@@ -2,6 +2,8 @@ var siteData;
 
 $(function() {
 
+	$('#navigation2').draggable();
+
 	//load the json
 	$.get( "info.json", function( data ) {
 
@@ -28,9 +30,6 @@ $(function() {
     		}
 		}
 
-		//create the about section
-		var about = $('.about');
-		about.html(data.about);
 
 		//load the google doc
 		locationHashChanged();
